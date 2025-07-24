@@ -13,6 +13,7 @@ The names of created `.csv` files will be taken from the name of `.adicht` file 
 # Features
 
 - When splitting by separator found only 1 specimen ID (e.g. using default comma separator and filename `AC17654r.adicht`) and mapping point to flat signal, then is assigned first not flat signal
+- The suffix (e.g. `r` at the end of filename`AC17654r.adicht`) informing which channel to export to .csv files is not part of the names of the created .csv files
 
 # Usage
 
