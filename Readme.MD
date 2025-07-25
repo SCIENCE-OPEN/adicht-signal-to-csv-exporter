@@ -42,7 +42,7 @@ options:
 
 and
 
-- adi-reader (requires Windows)
+- adi-reader ([requires Windows](https://github.com/JimHokanson/adinstruments_sdk_python/issues/3))
 - pandas
 - numpy
 
