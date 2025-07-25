@@ -52,19 +52,19 @@ For python dependencies, take a look at [requirements.txt](requirements.txt).
 
 - [Windows](#Windows)
 
+or cross-platform
+
+- [Docker](#Docker) (recommended)
+
 or
 
-- using [Docker](#Docker) (recommended)
-
-or
-
-- using [CrossOver](#CrossOver)
+- [CrossOver](#CrossOver)
 
 # Installation
 
 ## Windows
 
-### Using Conda (recommended)
+### Using Conda
 
 - create conda env for python3.11 `$ conda create --name myenv python=3.11` (python3.11 is necessary because pip package [adinstruments_sdk_matlab](https://github.com/JimHokanson/adinstruments_sdk_matlab) is built for python3.11)
 - activate conda env `$ conda activate myenv`
