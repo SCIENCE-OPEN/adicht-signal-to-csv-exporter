@@ -8,12 +8,11 @@
 
 The script requires first argument directory where recursivelly find `.adicht` files or is required path to single `.adicht` file. Second argument is required output directory. For each `.adicht` file on the input the script exports the channels according to provided channel-suffix mapping to separated `.csv` files to the output directory. Nested structure from the input to output is not followed!
 
-The names of created `.csv` files will be taken from the name of `.adicht` file according to default channel-suffix mapping `r:0,g:2` and the default delimeter `,` (e.g. the `channel 0` if not evaluated as flat from the file `AC17654r, AC17657g.adicht` will be written to the file `AC17654.csv` and `channel 2` to `AC17657.csv`).
+The names of created `.csv` files will be taken from the name of `.adicht` file according to default channel-suffix mapping `r:0,g:2` and the default delimeter `,` (e.g. the `channel 0` if not evaluated as flat from the file `AC17654r, AC17657g.adicht` will be written to the file `AC17654.csv` and `channel 2` to `AC17657.csv`, the suffix (e.g. r at the end of filename AC17654r.adicht) that is informing which channel should be exported to which .csv file is then not part of filenames of the created .csv files).
 
 # Features
 
 - When splitting by separator was found only 1 specimen ID (e.g. using default comma separator and filename `AC17654r.adicht`) and mapping point to channel with flat signal, then is assigned first not flat channel's signal
-- The suffix (e.g. `r` at the end of filename `AC17654r.adicht`) that is informing which channel should be exported to which .csv file is then not part of filenames of the created .csv files
 
 # Usage
 
