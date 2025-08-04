@@ -72,7 +72,7 @@ or
 ## Docker
 
 - build container `$ docker build -t for-adicht-signal-to-csv-exporter .` from the [Dockerfile](Dockerfile) (when moving to another directory make sure the script `adicht-signal-to-csv-exporter.py` and files `requirements.txt` and `requirements.windows.txt` were passed inside)
-- run container `$ docker rm -f for-adicht-signal-to-csv-exporter && docker run -p 5000:5000 -it --name for-adicht-signal-to-csv-exporter -v ./examples/:/src/examples/for-adicht-signal-to-csv-exporter`
+- run container `$ docker rm -f for-adicht-signal-to-csv-exporter && docker run -p 5000:5000 -it --name for-adicht-signal-to-csv-exporter -v ./examples/:/src/examples/for-adicht-signal-to-csv-exporter adicht-csv-exporter`
 - run inside container `$ mkdir output && wine python /src/adicht-signal-to-csv-exporter.py ...`
 
 The [Dockerfile](Dockerfile) is prepared for running a `python3` code with possibility debug it using port `5678`, just uncomment lines below marks `#debugging only` (e.g. VS code is able attach to running container and use breakpoints).
