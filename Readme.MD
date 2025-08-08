@@ -55,7 +55,7 @@ or cross-platform
 
 - [Docker](#Docker) (recommended)
 
-or
+or Linux, macOS and ChromeOS
 
 - [CrossOver](#CrossOver)
 
