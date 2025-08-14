@@ -116,6 +116,10 @@ No suffix match. Trying fallback for single ID: CP058R
 Created examples\CP058R.csv (from channel 0)
 ```
 
+# References
+
+- In the repository of the used library for conversion this was [mentioned](https://github.com/JimHokanson/adinstruments_sdk_python/issues/3) as an answer to **How to use a library on non-Windows platforms?** (respectively as solution to **Currently only works for Windows. Not fixable by me, requires changes by ADInstruments**)
+
 # TODO:
 
 ## CrossOver
