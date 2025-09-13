@@ -33,7 +33,7 @@ options:
 
 # Changelog
 
-[CHANGELOG.md](CHANGELOG.md)
+[CHANGELOG.MD](CHANGELOG.MD)
 
 # Dependencies
 
